@@ -1,0 +1,14 @@
+PODS:
+  - LGBString (0.1.0)
+
+DEPENDENCIES:
+  - LGBString (from `../`)
+
+EXTERNAL SOURCES:
+  LGBString:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGBString: 79615f6ded99576ca0be0e2216ab931e92d42679
+
+COCOAPODS: 0.39.0

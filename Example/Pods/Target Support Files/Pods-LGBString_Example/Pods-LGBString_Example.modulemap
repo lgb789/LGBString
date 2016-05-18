@@ -1,0 +1,6 @@
+framework module Pods_LGBString_Example {
+  umbrella header "Pods-LGBString_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+../../../../../LGBString/Classes/NSString+lgb_string.h

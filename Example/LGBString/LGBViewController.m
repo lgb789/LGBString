@@ -7,6 +7,7 @@
 //
 
 #import "LGBViewController.h"
+#import "NSString+lgb_string.h"
 
 @interface LGBViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *str = @"123456";
+    
+    NSString *md5 = [str lgb_md5];
+    
+    NSLog(@"%@\n%@", str, md5);
 }
 
 - (void)didReceiveMemoryWarning
