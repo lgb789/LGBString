@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGBString_Example' do
+  pod 'LGBString', :path => '../'
+
+  target 'LGBString_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
