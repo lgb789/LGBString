@@ -10,6 +10,8 @@
 
 @interface NSString (lgb_string)
 
--(NSString *)lgb_md5;
+- (NSString*)lgb_md5;
+
+- (BOOL)isEmpty;
 
 @end
