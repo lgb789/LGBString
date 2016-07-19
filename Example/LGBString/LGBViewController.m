@@ -25,6 +25,10 @@
     NSString *md5 = [str lgb_md5];
     
     NSLog(@"%@\n%@", str, md5);
+    
+    NSString *empty = @" ";
+    
+    NSLog(@"empty-->%d", [NSString lgb_isEmpty:empty]);
 }
 
 - (void)didReceiveMemoryWarning

@@ -25,14 +25,14 @@
     return output;
 }
 
-- (BOOL)isEmpty
++ (BOOL)lgb_isEmpty:(NSString *)str
 {
-    if ([self length] == 0)
+    if ([str length] == 0)
     {
         return YES;
     }
 
-    if (![[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length])
+    if (![[str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length])
     {
         return YES;
     }

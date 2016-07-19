@@ -12,6 +12,6 @@
 
 - (NSString*)lgb_md5;
 
-- (BOOL)isEmpty;
++ (BOOL)lgb_isEmpty:(NSString *)str;
 
 @end
